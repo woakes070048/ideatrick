@@ -1,0 +1,68 @@
+doctype html
+html
+head
+    meta(charset='utf-8')
+    title Whoops...! Nothing Here..!
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')   
+    meta(name='author', content='rayakan-digital')  
+    meta(name='keywords', content='rayakan-digital')  
+    meta(name='description', content='Rayakan Digital ID got error')
+
+    //- Stylesheets
+    link(rel='stylesheet', type='text/css', media='all', href='assets/error/css/style.css')
+
+    //- Javascripts
+    script(type='text/javascript', charset='utf-8', src='assets/error/js/jquery-1.8.3.js')
+    script(type='text/javascript', charset='utf-8', src='assets/error/js/plax.js')
+    script(type='text/javascript', charset='utf-8', src='assets/error/js/404.js')
+  
+  body#errorpage.error404
+    #pagewrap
+      //- Header Start
+      #header.header
+        .container
+          img.logo(src='assets/public/images/logo.png', alt='')
+      //- Header End
+      //- Plane
+      #main-content
+        .duck-animation(style='background-image:url(assets/error/images/plane.png);')
+      //- page content
+      #wrapper.clearfix
+        #parallax_wrapper
+          #content
+            h1 Wrong way
+              br
+              | Your idea get lost in clouds
+            |                         
+            p The page you&apos;re looking for is not here.                        
+            a.button(href='/', title='') Go Home
+          //- parallax
+          span.scene.scene_1                     
+          span.scene.scene_2                     
+          span.scene.scene_3
+    //- end pagewrap
+    //- page footer
+    #footer
+      .container
+        ul.copyright_info
+          li &copy; 2013 Rayakan
+          li &middot;
+          li Understand you.
+        //- social links
+        ul.links
+          li
+            a(href='http://facebook.com/rayakanID') Facebook
+          li
+          li
+            a(href='http://twitter.com/rayakanID') Twitter
+          li
+          li
+            a(href='#') Youtube
+    //- end page footer
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-43553901-1', 'squirrellabs.net');
+      ga('send', 'pageview');
