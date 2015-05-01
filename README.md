@@ -1,2 +1,11 @@
-# rayakan
-Rayakan adalah start-up yang bergerak di bidang crowdfunding yang terfokus pada art event dan melayani platform cloud penjualan tiket dan merch secara online.
+# Rayakan
+Rayakan is a biggest crowdfunding, directory listing, and automated ticketting platform for creative event maker to realized their idea. It's also works as campaign platform for community to kick up their existence.
+
+###Version
+1.0.0 alpha
+
+###Developer Team
+	- [Rohman Muhamad]
+
+
+[rohman muhamad]:http://twitter.com/rohmanmuhamd
