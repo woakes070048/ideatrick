@@ -5,7 +5,7 @@ Rayakan is a biggest crowdfunding, directory listing, and automated ticketting p
 1.0.0 alpha
 
 ###Developer Team
-	- [Rohman Muhamad]
+	- [ Rohman Muhamad ]
 
 
 [Rohman Muhamad]:http://twitter.com/rohmanmuhamd

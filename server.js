@@ -4,7 +4,7 @@ var	app = express();
 
 var path = require('path');
 var favicon = require('serve-favicon');
-// var logger = require('morgan');
+//var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require("body-parser");
 var http = require('http').Server(app);
@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // });
 
 // setup the logger
-// app.use(logger('combined', {stream: accessLogStream}))
+//app.use(logger('combined', {stream: accessLogStream}))
 
 /*route declaration*/
 
