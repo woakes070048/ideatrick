@@ -8,4 +8,4 @@ Rayakan is a biggest crowdfunding, directory listing, and automated ticketting p
 	- [Rohman Muhamad]
 
 
-[rohman muhamad]:http://twitter.com/rohmanmuhamd
+[Rohman Muhamad]:http://twitter.com/rohmanmuhamd
