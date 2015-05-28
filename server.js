@@ -1,6 +1,6 @@
 //variable
 var express = require('express');
-var	app = express();
+var app = express();
 
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -9,12 +9,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require("body-parser");
 var http = require('http').Server(app);
 var partial = require('express-partial');
+
 // var fileStreamRotator = require('file-stream-rotator');
 // var fs = require('fs');
-
 // var logDirectory = __dirname + '/log'
-
 //app.set
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -25,7 +25,6 @@ app.use(partial());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory)
-
 // create a rotating write stream
 // var accessLogStream = fileStreamRotator.getStream({
 //  filename: logDirectory + '/access-%DATE%.log',
@@ -35,7 +34,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // setup the logger
 //app.use(logger('combined', {stream: accessLogStream}))
-
 /*route declaration*/
 
 app.get('/',function(req,res){
