@@ -1,0 +1,28 @@
+{
+  "name": "rayakan",
+  "homepage": "https://github.com/rohmanmuhamad/rayakan",
+  "authors": [
+    "Rohman Muhamad <rohmuhamad@gmail.com>"
+  ],
+  "description": "Assets for rayakan websites",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Waves": "waves#~0.7.4",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "uikit": "~2.23.0",
+    "animate.css": "~3.4.0"
+  }
+}
