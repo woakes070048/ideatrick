@@ -25,6 +25,7 @@ Technology we used in development:
 
 ### Version and feature
 Versioning and features based on Semantic convention.
+
 1. Version 0.0.9 (*alpha*)
     * Social login
     * Event Vendors Directories
@@ -33,6 +34,7 @@ Versioning and features based on Semantic convention.
 
 ### User Management
 User management, based on roles and level, every single level has it's own rules. The highest level is **Super User**.
+
 1. Super user
     * All control
 2. Administrator
