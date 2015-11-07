@@ -1,10 +1,11 @@
 <?php
+
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class CreateRolesTables extends Migration
 {
-    /**
+     /**
      * Run the migrations.
      *
      * @return void
@@ -60,6 +61,9 @@ class CreateRolesTables extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('roles');
+        Schema::drop('permissions');
+        Schema::drop('permission_role');
+        Schema::drop('role_user');
     }
 }
