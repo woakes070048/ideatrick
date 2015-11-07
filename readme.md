@@ -6,6 +6,7 @@ Project of Rayakan (Master)
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 ***
+
 ### Technology
 Technology we used in development:
   * [Laravel](hhttps://packagist.org/packages/laravel/framework) PHP Framework version : [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
@@ -20,20 +21,23 @@ Technology we used in development:
   * [Animate CSS](https://github.com/daneden/animate.css) Cross-browser library of CSS animations
   * [Font Awesome](https://github.com/FortAwesome/Font-Awesome) Font icons
   * [Materil](http://themeforest.net/item/materil-angular-material-design-admin-template/11062969) Admin Dashboard
-***
+
+
 ### Version and feature
 Versioning and features based on Semantic convention.
 1. Version 0.0.9 (*alpha*)
     * Social login
     * Event Vendors Directories
     * Sponsor Directories
-***
+
+
 ### User Management
 User management, based on roles and level, every single level has it's own rules. The highest level is **Super User**.
 1. Super user
     * All control
 2. Administrator
-***
+
+
 ### Work List
 1. Version 0.0.9 (*alpha*)
     * ~~Basic User and Administrator Dashboard~~
@@ -41,9 +45,9 @@ User management, based on roles and level, every single level has it's own rules
     * ~~Basic Password Reset~~
     * Social Login
     * Design and Implemetation of Dashboard Contents
-    * Business concept and workflow
-    * 
-***
+    * Business concept and workflow 
+
+
 ### Social Media
 List all of social media we have :
 
@@ -61,5 +65,6 @@ List all of social media we have :
 [2]: http://www.facebook.com/rayakanID
 [3]: https://plus.google.com/+rayakanID
 [4]: https://github.com/
-***
+
+
 ###### (c) Copyright 2015 - Rayakan
