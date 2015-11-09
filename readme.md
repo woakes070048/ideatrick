@@ -1,7 +1,7 @@
-Project of Rayakan (Master)
-===========================
+IdeaTrick
+============
 
-**Rayakan**---*Kick up your idea*--- is a biggest crowdfunding, directory listing, and automated ticketting platform for creative event maker to realized their idea. It's also works as campaign platform for community to kick up their existence. We work hard to serve everything you need to organize and make your dreams comes true.
+**IdeaTrick** ---*Kick up your idea*--- is a biggest crowdfunding, directory listing, and automated ticketting platform for creative event maker to realized their idea. It's also works as campaign platform for community to kick up their existence. We work hard to serve everything you need to organize and make your dreams comes true.
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
@@ -58,15 +58,15 @@ List all of social media we have :
 [![Rayakan][3.1]][3]
 [![Rayakan][4.1]][4]
 
-[1.1]: http://i.imgur.com/tXSoThF.png (Rayakan on Twitter)
-[2.1]: http://i.imgur.com/P3YfQoD.png (Rayakan on Facebook)
-[3.1]: http://i.imgur.com/yCsTjba.png (Rayakan on G+)
-[4.1]: http://i.imgur.com/0o48UoR.png (Rayakan on GitHub)
+[1.1]: http://i.imgur.com/tXSoThF.png (IdeaTrix on Twitter)
+[2.1]: http://i.imgur.com/P3YfQoD.png (IdeaTrix on Facebook)
+[3.1]: http://i.imgur.com/yCsTjba.png (IdeaTrix on G+)
+[4.1]: http://i.imgur.com/0o48UoR.png (IdeaTrix on GitHub)
 
-[1]: http://www.twitter.com/rayakanID
-[2]: http://www.facebook.com/rayakanID
-[3]: https://plus.google.com/+rayakanID
-[4]: https://github.com/
+[1]: http://www.twitter.com/ideatrixID
+[2]: http://www.facebook.com/ideatrick
+[3]: https://plus.google.com/+ideatrick
+[4]: https://github.com/ideatrick
 
 
-###### (c) Copyright 2015 - Rayakan
+###### (c) Copyright 2015 - IdeaTrick
