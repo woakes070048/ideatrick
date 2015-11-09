@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 class SitesController extends Controller
 {
     public function index(){
-        return view('main', ['title' => 'Market Indie  | Marketplace Produk Lokal Indonesia Berkualitas Dunia']);
+        return view('home.index', ['title' => 'IdeaTricks | The Biggest Event Portal']);
 
     }
 }

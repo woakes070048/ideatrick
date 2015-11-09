@@ -1,7 +1,7 @@
 IdeaTrick
 ============
 
-**IdeaTrick**---*Kick up your idea*--- is a biggest crowdfunding, directory listing, and automated ticketting platform for creative event maker to realized their idea. It's also works as campaign platform for community to kick up their existence. We work hard to serve everything you need to organize and make your dreams comes true.
+**IdeaTrick** ---*Kick up your idea*--- is a biggest crowdfunding, directory listing, and automated ticketting platform for creative event maker to realized their idea. It's also works as campaign platform for community to kick up their existence. We work hard to serve everything you need to organize and make your dreams comes true.
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)

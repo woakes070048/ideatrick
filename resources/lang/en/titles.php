@@ -1,10 +1,10 @@
 <?php
 
 return [
-	'app'		=> 'Ideartix',
-    'APP'       => 'IDEARTIX',
-	'link'		=> 'ideartix.com',
-    'LINK'      => 'IDEARTIX.COM',
+	'app'		=> 'Ideatrick',
+    'APP'       => 'IDEATRICK',
+	'link'		=> 'ideatrick.com',
+    'LINK'      => 'IDEATRICK.COM',
 	'home'		=> 'Home',
 	'login'		=> 'Login',
 	'logout'	=> 'Logout',
