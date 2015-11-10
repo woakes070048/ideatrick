@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace IdeaTrick\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use IdeaTrick\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

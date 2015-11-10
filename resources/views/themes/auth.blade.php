@@ -6,14 +6,15 @@
   <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
+  
+  <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikits.css') }}" type="text/css">
 
   <link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
-  <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
-  <link rel="stylesheet" href="{{ asset('assets/general/css/admin.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
 
 </head>
 <body>

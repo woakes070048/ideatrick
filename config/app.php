@@ -143,9 +143,9 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        IdeaTrick\Providers\AppServiceProvider::class,
+        IdeaTrick\Providers\EventServiceProvider::class,
+        IdeaTrick\Providers\RouteServiceProvider::class,
 
     ],
 

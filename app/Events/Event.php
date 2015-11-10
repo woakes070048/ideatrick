@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace IdeaTrick\Events;
 
 abstract class Event
 {

@@ -35,3 +35,63 @@
   font-weight: 700;
   src: local('Brandon Bold'), local('Brandon-Bold'), url(../fonts/brandon/brandon-bold.woff) format('woff');
 }
+
+@font-face {
+  font-family:'ARS Maquette';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/ars/ars-maquette-regular.eot);
+  src:url(../fonts/ars/ars-maquette-regular.eot?#iefix), format('embedded-opentype');
+  src:url(../fonts/ars/ars-maquette-regular.woff), format('woff');
+  src:url(../fonts/ars/ars-maquette-regular.ttf), format('truetype');
+}
+
+@font-face {
+  font-family:'ARS Maquette';
+  font-style:italic;
+  font-weight:400;
+  src:url(../fonts/ars/ars-maquette-regular-italic.eot);
+  src:url(../fonts/ars/ars-maquette-regular-italic.eot?#iefix), format('embedded-opentype');
+  src:url(../fonts/ars/ars-maquette-regular-italic.woff), format('woff');
+  src:url(../fonts/ars/ars-maquette-regular-italic.ttf), format('truetype');
+}
+
+@font-face {
+    font-family:'ARS Maquette';
+    font-style:normal;
+    font-weight: 500;
+    src:url(../fonts/ars/ars-maquette-medium.eot);
+    src:url(../fonts/ars/ars-maquette-medium.eot?#iefix), format('embedded-opentype');
+    src:url(../fonts/ars/ars-maquette-medium.woff), format('woff');
+    src:url(../fonts/ars/ars-maquette-medium.ttf), format('truetype');
+}
+
+@font-face {
+  font-family:'ARS Maquette';
+  font-style:normal;
+  font-weight:700;
+  src:url(../fonts/ars/ars-maquette-bold-alt.eot);
+  src:url(../fonts/ars/ars-maquette-bold-alt.eot?#iefix), format('embedded-opentype');
+  src:url(../fonts/ars/ars-maquette-bold-alt.woff), format('woff');
+  src:url(../fonts/ars/ars-maquette-bold-alt.ttf), format('truetype');
+}
+
+@font-face {
+  font-family:'ARS Maquette';
+  font-style:italic;
+  font-weight:700;
+  src:url(../fonts/ars/ars-maquette-bold-italic-alt.eot);
+  src:url(../fonts/ars/ars-maquette-bold-italic-alt.eot?#iefix), format('embedded-opentype');
+  src:url(../fonts/ars/ars-maquette-bold-italic-alt.woff), format('woff');
+  src:url(../fonts/ars/ars-maquette-bold-italic-alt.ttf), format('truetype');
+}
+
+@font-face {
+  font-family:'ARS Maquette';
+  font-style:normal;
+  font-weight:900;
+  src:url(../fonts/ars/ars-maquette-black-alt.eot);
+  src:url(../fonts/ars/ars-maquette-black-alt.eot?#iefix), format('embedded-opentype');
+  src:url(../fonts/ars/ars-maquette-black-alt.woff), format('woff');
+  src:url(../fonts/ars/ars-maquette-black-alt.ttf), format('truetype');
+}

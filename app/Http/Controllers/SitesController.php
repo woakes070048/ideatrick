@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace IdeaTrick\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use IdeaTrick\Http\Requests;
+use IdeaTrick\Http\Controllers\Controller;
 
 class SitesController extends Controller
 {
