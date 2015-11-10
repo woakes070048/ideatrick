@@ -24,16 +24,15 @@
 <meta name="twitter:description" content="The biggest event portal in the world, find everything you need to kick up and trick your idea.">
 <meta name="twitter:image" content=''>
 
-<link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikit.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/font-awesome/css/font-awesome.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('assets/backstage/css/material-design-icons.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('assets/backstage/css/font.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('assets/backstage/css/app.css') }}" type="text/css">
-
+<link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('/assets/general/css/home.css') }}" type="text/css">
 <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
 
 </head>
@@ -42,19 +41,16 @@
 <div class="app">
     <div id="content" class="app-content" role="main">
     	<div class="box">
-
     		@yield('navbar')
-    
     	<div class="box-row">
         	<div class="box-cell">
+                @yield('banner')
             	<div class="box-inner padding">
                 	@yield('content')
             	</div>
         	</div>
     	</div>
-
     	</div>
-
     </div>
 </div>
 
@@ -63,14 +59,15 @@
 <script src="{{ asset('assets/bower_components/Waves/dist/waves.js') }}"></script>
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
 
-<script src="{{ asset('assets/backstage/js/function.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-load.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-jp.config.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-jp.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-nav.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-toggle.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-form.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-waves.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-client.js') }}"></script>
+<script src="{{ asset('assets/general/js/function.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-load.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-jp.config.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-jp.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-nav.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-toggle.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-form.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-waves.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-client.js') }}"></script>
+
 </body>
 </html>

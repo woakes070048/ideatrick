@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/roboto/roboto-light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(../fonts/roboto/roboto.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/roboto/roboto-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Brandon Light'), local('Brandon-Light'), url(../fonts/brandon/brandon-light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Brandon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Brandon'), local('Brandon-Regular'), url(../fonts/brandon/brandon-reg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Brandon';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Brandon Bold'), local('Brandon-Bold'), url(../fonts/brandon/brandon-bold.woff) format('woff');
+}

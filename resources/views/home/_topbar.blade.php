@@ -11,11 +11,11 @@
         </svg>
 
         {{-- <img src="images/logo.png" alt="." style="max-height: 36px; display:none"> --}}
-        <span class="hidden-folded m-l inline">{{Lang::get('titles.app')}}</span>
+        <span class="hidden-folded m-l inline ">{{Lang::get('titles.app')}}</span>
     </a>
   </div>
 
-  <ul class="nav nav-sm navbar-tool pull-right">
+  <ul class="nav nav-sm navbar-tool pull-right brandon">
     @if (Auth::guest())
         <li>
             <a md-ink-ripple href="/auth/register">REGISTER</a>

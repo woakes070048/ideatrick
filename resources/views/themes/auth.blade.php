@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikits.css') }}" type="text/css">
 
-  <link rel="stylesheet" href="{{ asset('assets/backstage/css/material-design-icons.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
-  <link rel="stylesheet" href="{{ asset('assets/backstage/css/font.css') }}" type="text/css">
-  <link rel="stylesheet" href="{{ asset('assets/backstage/css/app.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/general/css/admin.css') }}" type="text/css">
 
 </head>
 <body>
@@ -42,15 +42,15 @@
 <script src="{{ asset('assets/bower_components/Waves/dist/waves.js') }}"></script>
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
 
-<script src="{{ asset('assets/backstage/js/function.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-load.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-jp.config.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-jp.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-nav.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-toggle.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-form.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-waves.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-client.js') }}"></script>
+<script src="{{ asset('assets/general/js/function.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-load.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-jp.config.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-jp.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-nav.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-toggle.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-form.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-waves.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-client.js') }}"></script>
 
 </body>
 </html>
