@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -40,23 +42,17 @@
   font-family:'ARS Maquette';
   font-style:normal;
   font-weight:400;
-  src:url(../fonts/ars/ars-maquette-regular.eot);
-  src:url(../fonts/ars/ars-maquette-regular.eot?#iefix), format('embedded-opentype');
-  src:url(../fonts/ars/ars-maquette-regular.woff), format('woff');
-  src:url(../fonts/ars/ars-maquette-regular.ttf), format('truetype');
+  src: local('ARS Maquette Regular'), local('ARS-Maquette-Regular'), url(../fonts/ars/ars-maquette-regular.woff), format('woff');
 }
 
 @font-face {
   font-family:'ARS Maquette';
   font-style:italic;
   font-weight:400;
-  src:url(../fonts/ars/ars-maquette-regular-italic.eot);
-  src:url(../fonts/ars/ars-maquette-regular-italic.eot?#iefix), format('embedded-opentype');
-  src:url(../fonts/ars/ars-maquette-regular-italic.woff), format('woff');
-  src:url(../fonts/ars/ars-maquette-regular-italic.ttf), format('truetype');
+  src: local('ARS Maquette Italic'), local('ARS-Maquette-Italic'), url(../fonts/ars/ars-maquette-regular-italic.woff), format('woff');
 }
 
-@font-face {
+/*@font-face {
     font-family:'ARS Maquette';
     font-style:normal;
     font-weight: 500;
@@ -94,4 +90,4 @@
   src:url(../fonts/ars/ars-maquette-black-alt.eot?#iefix), format('embedded-opentype');
   src:url(../fonts/ars/ars-maquette-black-alt.woff), format('woff');
   src:url(../fonts/ars/ars-maquette-black-alt.ttf), format('truetype');
-}
+}*/

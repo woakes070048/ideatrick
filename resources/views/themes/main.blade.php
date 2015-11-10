@@ -39,19 +39,15 @@
 
 <body>
 <div class="app">
-    <div id="content" class="app-content" role="main">
+
     	<div class="box">
-    		@yield('navbar')
-    	<div class="box-row">
-        	<div class="box-cell">
-                @yield('banner')
-            	<div class="box-inner padding">
-                	@yield('content')
-            	</div>
-        	</div>
+    		
+            @yield('navbar')
+            @yield('banner')
+            @yield('content')
+
     	</div>
-    	</div>
-    </div>
+
 </div>
 
 <script src="{{ asset('assets/bower_components/jquery/dist/jquery.js') }}"></script>
