@@ -23,8 +23,7 @@
   <div class="center-block w-xxl w-auto-xs p-v-md">
     <div class="navbar">
       <div class="navbar-brand m-t-lg text-center">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="
-                width: 24px; height: 24px;">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="width: 24px; height: 24px;">
           <path d="M 50 0 L 100 14 L 92 80 Z" fill="rgba(139, 195, 74, 0.5)"></path>
           <path d="M 92 80 L 50 0 L 50 100 Z" fill="rgba(139, 195, 74, 0.8)"></path>
           <path d="M 8 80 L 50 0 L 50 100 Z" fill="#fff"></path>
