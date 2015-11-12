@@ -30,7 +30,9 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest', ['except' => 'getLogout']);
+        $this->middleware('guest', 
+            ['except' =>
+                ['getLogout', 'resendEmail', 'activateAccount']]);
     }
 
     /**
@@ -64,5 +66,11 @@ class AuthController extends Controller
         ]);
     }
 
+    /**
+     * Handle a registration request for the application.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
     protected $redirectPath = '/dashboard';
 }
