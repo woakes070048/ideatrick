@@ -18,11 +18,11 @@
   <ul class="nav nav-sm navbar-tool pull-right brandon">
     @if (Auth::guest())
         <li>
-            <a md-ink-ripple href="/auth/register">REGISTER</a>
+            <a md-ink-ripple href="/auth/register">SIGN UP</a>
         </li>
 
         <li>
-          <a md-ink-ripple href="/auth/login">LOGIN</a>
+          <a md-ink-ripple href="/auth/login">SIGN IN</a>
         </li>
 
         <li>

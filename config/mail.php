@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'noreply@marketindie.com', 'name' => 'Password Reset Confirmation'],
+    'from' => ['address' => 'noreply@ideatricks.com', 'name' => 'Password Reset Confirmation'],
 
     /*
     |--------------------------------------------------------------------------

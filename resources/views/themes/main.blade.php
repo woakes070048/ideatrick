@@ -46,36 +46,11 @@
             @yield('banner')
             <div class="uk-container-center">
             <div class="md-whiteframe-z0 bg-white">
-                <ul class="nav nav-lines nav-tabs nav-justified">
-                    <li class="active">
-                        <a href="" data-toggle="tab" data-target="#menu1" aria-expanded="true">Pages</a>
-                    </li>
-                    <li class="">
-                        <a href="" data-toggle="tab" data-target="#menu2" aria-expanded="false">Components <span class="badge bg-info badge-xs">5</span></a>
-                    </li>
-                    <li class="">
-                        <a href="" data-toggle="tab" data-target="#menu3" aria-expanded="false">UI Kits</a>
-                    </li>
-                </ul>
-            
-                <div class="tab-content p m-b-md clear b-t b-t-2x">
-                    <div role="tabpanel" class="tab-pane animated fadeInDown active" id="tab_7">
-                        Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane animated fadeInDown" id="tab_8">
-                         Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane animated fadeInDown" id="tab_9">
-                        Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher.
-                    </div>
-                </div>
-            </div>
-            </div>
-
+            <div class="container">
             @yield('content')
-
+            </div>
+            </div>
+            </div>
     	</div>
 
 </div>

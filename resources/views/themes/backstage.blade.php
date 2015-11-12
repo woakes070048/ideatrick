@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/general/css/admin.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
 
 </head>
 <body>
