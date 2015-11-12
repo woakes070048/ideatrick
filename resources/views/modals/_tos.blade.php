@@ -3,7 +3,7 @@
     <button type="button" class="uk-modal-close uk-close"></button>
     <h1>{{Lang::get('titles.LINK')}}</h1>
     <h2>Terms & Agreements</h2>
-    <p align="justify">WELCOME TO {{Lang::get('titles.LINK')}} (“{{Lang::get('titles.LINK')}} “, “WE, “US”). WE ENCOURAGE YOU TO READ OUR TERMS OF USE & SERVICE AND ANY OTHER RULES POSTED ON OUR SITES (COLLECTIVELY, THE "TOS") BEFORE PURCHASING OR PLACING ORDERS TO OUR WEB STORE. WE MAY CHANGE OUR TERMS AND CONDITIONS FROM TIME TO TIME. IF YOU DO NOT AGREE TO OUR TERMS AND CONDITIONS, WE SUGGEST YOU TO STOP USING THE WEB STORE.
+    <p align="justify">WELCOME TO {{Lang::get('titles.LINK')}} ("{{Lang::get('titles.LINK')}} ", "WE", "US"). WE ENCOURAGE YOU TO READ OUR TERMS OF USE & SERVICE AND ANY OTHER RULES POSTED ON OUR SITES (COLLECTIVELY, THE "TOS") BEFORE PURCHASING OR PLACING ORDERS TO OUR WEB STORE. WE MAY CHANGE OUR TERMS AND CONDITIONS FROM TIME TO TIME. IF YOU DO NOT AGREE TO OUR TERMS AND CONDITIONS, WE SUGGEST YOU TO STOP USING THE WEB STORE.
     </p>
         <div style="" class="uk-overflow-container">
             <p>ANY CHANGES MADE AFTER YOU HAVE PLACED AN ORDER WILL NOT AFFECT THAT ORDER HOWEVER, UNLESS WE ARE REQUIRED TO MAKE THE CHANGE BY LAW. THIS WEBSITE ALSO CONTAINS LINKS TO OTHER WEBSITES, WHICH ARE NOT OPERATED BY {{Lang::get('titles.LINK')}} (THE "LINKED SITES"). {{Lang::get('titles.LINK')}} HAS NO CONTROL OVER THE LINKED SITES AND ACCEPTS NO RESPONSIBILITY FOR THEM OR FOR ANY LOSS OR DAMAGE THAT MAY ARISE FROM YOUR USE OF THEM. YOUR USE OF THE LINKED SITES WILL BE SUBJECT TO THE TERMS OF USE AND SERVICE CONTAINED WITHIN EACH SUCH SITE.</p>
@@ -80,7 +80,7 @@
             </article>
         </div>
         <br>
-        <p align="justify">{{Lang::get('titles.LINK')}} is registered under Local.co.id, a series of web-products committed to empower local products through information and technology.</p>
-        <p>Copyright (c) 2015 | <a href="marketindie.com">{{ Lang::get('titles.link')}}</a></p>
+        <p align="justify">{{Lang::get('titles.LINK')}} is registered under IdeaTrick.com, a series of web-products committed to empower local products through information and technology.</p>
+        <p>Copyright (c) 2015 | <a href="ideatrick.com">{{ Lang::get('titles.link')}}</a></p>
     </div>
 </div>

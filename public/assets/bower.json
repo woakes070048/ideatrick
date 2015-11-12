@@ -24,6 +24,6 @@
     "font-awesome": "fontawesome#~4.4.0",
     "uikit": "~2.23.0",
     "animate.css": "~3.4.0",
-    "impress.js": "~0.5.*"
+    "slick-carousel": "~1.5.8"
   }
 }

@@ -31,25 +31,27 @@
 <link rel="stylesheet" href="{{ asset('assets/bower_components/font-awesome/css/font-awesome.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/bower_components/slick-carousel/slick/slick.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/bower_components/slick-carousel/slick/slick-theme.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('/assets/general/css/home.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/general/css/home.css') }}" type="text/css">
+
 <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
 
 </head>
-
 <body>
+
 <div class="app">
 
-    	<div class="box">
-    		
-            @yield('navbar')
-            @yield('banner')
+    	<div class="box ng-scope">
+                @yield('navbar')
+                @yield('banner')
             <div class="uk-container-center">
-            <div class="md-whiteframe-z0 bg-white">
-            <div class="container">
-            @yield('content')
-            </div>
-            </div>
+                <div class="md-whiteframe-z0 bg-white">
+                    <div class="container">
+                        @yield('content')
+                    </div>
+                </div>
             </div>
     	</div>
 
@@ -59,6 +61,7 @@
 <script src="{{ asset('assets/bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
 <script src="{{ asset('assets/bower_components/Waves/dist/waves.js') }}"></script>
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
+<script src="{{ asset('assets/bower_components/slick-carousel/slick/slick.js') }}"></script>
 
 <script src="{{ asset('assets/general/js/function.js') }}"></script>
 <script src="{{ asset('assets/general/js/ui-load.js') }}"></script>
