@@ -6,7 +6,7 @@
                 get connected with your supporters<br>
                 kick up your idea, now!
              </h1>
-            <h2 class="col-xs-12 visible-xs varela">
+            <h2 class="col-xs-12 visible-xs varela" id="connect">
                 The biggest event portal<br>
                 get connected with your supporters<br>
                 kick up your idea, now !

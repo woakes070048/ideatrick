@@ -44,16 +44,9 @@
 <div class="app">
 
     	<div class="box ng-scope">
-                @yield('navbar')
-                @yield('banner')
-            <div class="uk-container-center">
-                <div class="md-whiteframe-z0 bg-white">
-                    <div class="container">
-                        @yield('content')
-                    </div>
-                </div>
-            </div>
+                @yield('content')
     	</div>
+        @yield('footer')
 
 </div>
 
