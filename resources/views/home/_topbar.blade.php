@@ -1,7 +1,7 @@
-<div class="navbar md-whiteframe-z1 no-radius pink">
+<div class="navbar md-whiteframe-z1 no-radius pink-1000">
   <!-- Page title - Bind to $state's title -->
   <div class="navbar-item pull-left h4">
-    <a class="navbar-brand">
+    <a class="navbar-brand" href="/">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="
                   width: 24px; height: 24px;">
             <path d="M 50 0 L 100 14 L 92 80 Z" fill="rgba(139, 195, 74, 0.5)"></path>
@@ -48,7 +48,7 @@
   <div class="pull-right" ui-view="navbar@"></div>
 
 
-  <div id="search" class="pos-abt w-full h-full pink hide">
+  <div id="search" class="pos-abt w-full h-full pink-1000 hide">
       <div class="box">
           <div class="box-col w-56 text-center">
 

@@ -24,7 +24,7 @@
 				</div>
 				<button md-ink-ripple="" class="md-btn md-fab md-raised pink m-r md-fab-offset pull-right"><i class="fa fa-ticket i-24"></i></button>
 				<div class="p">
-					<h3><a href="#">Reeva Schematics 2016</a></h3>
+					<h4><a href="#">Reeva Schematics 2016</a></h4>
 					<div class="m-b">
 					<span class="details"><i class="glyphicon glyphicon-map-marker text-md"></i><a href="#" class="details-link">. Surabaya</a></span>
 
@@ -47,7 +47,7 @@
 
 	<div class="btn-groups row" style="margin-bottom: 10px">
 		<div class="align-center">
-		<button class="btn btn-fw btn-stroke pink b-2x">All Popular Stage</button>
+		<button class="btn btn-fw btn-stroke pink b-2x" onclick="location.href='/popular';">All Popular Stage</button>
 		</div>
 	</div>
 

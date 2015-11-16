@@ -1,7 +1,7 @@
 <div class="hidden-xs connect">
 <div class=" row panel panel-card no-gutter">
 	<div class="col-md-8 col-xs-7">
-		<div class="row pink">
+		<div class="row pink-1000">
 		<p class="connect-title">Discover great event and attend it with your friends!</p>
 		<p class="connect-subtitle">With the powers of the creative universe and Facebook combined, who knows what amazing projects you’ll discover?</p>
 		</div>

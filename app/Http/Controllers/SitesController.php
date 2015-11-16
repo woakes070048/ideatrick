@@ -12,4 +12,8 @@ class SitesController extends Controller
         return view('home.index', ['title' => 'IdeaTrick | The Biggest Event Portal']);
 
     }
+
+    public function popular(){
+    	return view('pages.popular',['title' => 'Popular | IdeaTrick']);
+    }
 }

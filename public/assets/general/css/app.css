@@ -1869,6 +1869,10 @@ a.list-group-item.hover {
   right: 12px;
 }
 
+.black {
+  background-color: #000000;
+}
+
 .red {
   background-color: #f44336;
 }
@@ -1971,6 +1975,10 @@ a.list-group-item.hover {
 
 .pink-900 {
   background-color: #880e4f;
+}
+
+.pink-1000 {
+  background-color: #D3126D;
 }
 
 .pink-A100 {
@@ -2969,6 +2977,7 @@ a.list-group-item.hover {
 .red-A400,
 .red-A700,
 .pink,
+.pink-1000,
 .pink-500,
 .pink-600,
 .pink-A200,
@@ -3082,6 +3091,10 @@ a.list-group-item.hover {
 .grey-800,
 .grey-900 {
   color: rgba(255, 255, 255, 0.87);
+}
+
+.black {
+  color: #fff;
 }
 
 .orange-A700 {

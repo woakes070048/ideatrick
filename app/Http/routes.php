@@ -1,6 +1,7 @@
 <?php
 
 Route::get('/','SitesController@index');
+Route::get('/popular','SitesController@popular');
 
 Route::resource('dashboard','DashboardController');
 
