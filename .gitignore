@@ -2,4 +2,4 @@
 /node_modules
 /documents/design_assets
 .env
-
+.DS_Store
