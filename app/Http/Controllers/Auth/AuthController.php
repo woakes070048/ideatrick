@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace IdeaTrick\Http\Controllers\Auth;
 
-use App\User;
+use IdeaTrick\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use IdeaTrick\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
@@ -30,7 +30,9 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest', ['except' => 'getLogout']);
+        $this->middleware('guest', 
+            ['except' =>
+                ['getLogout', 'resendEmail', 'activateAccount']]);
     }
 
     /**
@@ -64,5 +66,11 @@ class AuthController extends Controller
         ]);
     }
 
+    /**
+     * Handle a registration request for the application.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
     protected $redirectPath = '/dashboard';
 }

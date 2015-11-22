@@ -3,16 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>{{Lang::get('titles.app')}}</title>
-    <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="The biggest event portal in the world, find everything you need to kick up and trick your idea." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
     <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/bower_components/font-awesome/css/font-awesome.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/backstage/css/material-design-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
 
     <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/backstage/css/font.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/backstage/css/app.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
 
 </head>
 <body>
@@ -25,7 +26,7 @@
         <div class="box-cell">
             <div class="box-inner padding">
                 @yield('content')
-                vex.dialog.alert 'Thanks for checking out Vex!'
+                Isi
             </div>
         </div>
     </div>
@@ -39,15 +40,15 @@
 <script src="{{ asset('assets/bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
 <script src="{{ asset('assets/bower_components/Waves/dist/waves.js') }}"></script>
 
-<script src="{{ asset('assets/backstage/js/function.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-load.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-jp.config.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-jp.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-nav.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-toggle.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-form.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-waves.js') }}"></script>
-<script src="{{ asset('assets/backstage/js/ui-client.js') }}"></script>
+<script src="{{ asset('assets/general/js/function.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-load.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-jp.config.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-jp.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-nav.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-toggle.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-form.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-waves.js') }}"></script>
+<script src="{{ asset('assets/general/js/ui-client.js') }}"></script>
 
 </body>
 </html>

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace IdeaTrick\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use App\Blogpost;
+use IdeaTrick\Http\Requests;
+use IdeaTrick\Http\Controllers\Controller;
+use IdeaTrick\Blogpost;
 
 class BlogsController extends Controller
 {

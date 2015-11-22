@@ -1,7 +1,7 @@
 <?php
-namespace App\Providers;
+namespace IdeaTrick\Providers;
 
-use App\Permission;
+use IdeaTrick\Permission;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
@@ -14,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      */
 
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
+        'IdeaTrick\Model' => 'IdeaTrick\Policies\ModelPolicy',
     ];
 
     /**

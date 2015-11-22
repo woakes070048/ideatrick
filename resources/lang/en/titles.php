@@ -1,10 +1,10 @@
 <?php
 
 return [
-	'app'		=> 'Rayakan',
-    'APP'       => 'RAYAKAN',
-	'link'		=> 'rayakan.co.id',
-    'LINK'      => 'RAYAKAN.CO.ID',
+	'app'		=> 'Ideatrick',
+    'APP'       => 'IDEATRICK',
+	'link'		=> 'ideatrick.com',
+    'LINK'      => 'IDEATRICK.COM',
 	'home'		=> 'Home',
 	'login'		=> 'Login',
 	'logout'	=> 'Logout',

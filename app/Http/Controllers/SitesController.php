@@ -1,15 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace IdeaTrick\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use IdeaTrick\Http\Requests;
+use IdeaTrick\Http\Controllers\Controller;
 
 class SitesController extends Controller
 {
     public function index(){
-        return view('main', ['title' => 'Market Indie  | Marketplace Produk Lokal Indonesia Berkualitas Dunia']);
+        return view('home.index', ['title' => 'IdeaTrick | The Biggest Event Portal']);
 
+    }
+
+    public function popular(){
+    	return view('pages.popular',['title' => 'Popular | IdeaTrick']);
     }
 }

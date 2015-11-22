@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace IdeaTrick;
 use Illuminate\Database\Eloquent\Model;
 
 class Role extends Model

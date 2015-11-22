@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: IdeaTrick
+        psr4_prefix: IdeaTrick
         src_path: app

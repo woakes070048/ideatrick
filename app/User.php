@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace IdeaTrick;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -32,4 +32,5 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['password', 'remember_token', 'is_active'];
+    
 }
