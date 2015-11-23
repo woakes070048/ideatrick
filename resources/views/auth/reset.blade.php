@@ -35,6 +35,6 @@
 
 </div>
 <div class=" p-v-lg text-center">
-    <div class="m-b"><button onclick="location.href='/auth/login';" ui-sref="access.login" class="md-btn">Back to Login</button></div>
+    <div class="m-b"><button onclick="location.href='login';" ui-sref="access.login" class="md-btn">Back to Login</button></div>
 </div>
 @endsection

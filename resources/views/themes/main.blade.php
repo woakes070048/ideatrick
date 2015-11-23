@@ -24,7 +24,7 @@
 <meta name="twitter:description" content="The biggest event portal in the world, find everything you need to kick up and trick your idea.">
 <meta name="twitter:image" content=''>
 
-<script src="{{ asset('assets/bower_components/modernizer/modernizer.js') }}"></script>
+<script src="{{ asset('assets/bower_components/modernizr/modernizr.js') }}"></script>
 <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikit.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">

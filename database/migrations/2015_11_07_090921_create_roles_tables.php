@@ -37,7 +37,7 @@ class CreateRolesTables extends Migration
                   ->references('id')
                   ->on('roles')
                   ->onDelete('cascade');
-            $table->primary(['permission_Id', 'role_id']);
+            $table->primary(['permission_id', 'role_id']);
         });
 
         Schema::create('role_user', function (Blueprint $table) {

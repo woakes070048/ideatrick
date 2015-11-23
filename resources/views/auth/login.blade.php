@@ -10,10 +10,10 @@
 
   @include('errors._register')
 
-  {!! Form::open(['name'=>'form','url'=>'/auth/login']) !!}
+  {!! Form::open(['name'=>'form','route'=>'login_post']) !!}
   <div class="md-form-group float-label">
-      {!! Form::email('email',null,['class'=>'md-input','ng-model'=>'user.email']) !!}
-      {!! Form::label('email', 'E-Mail') !!}
+      {!! Form::text('username',null,['class'=>'md-input','ng-model'=>'user.name']) !!}
+      {!! Form::label('username', 'Username') !!}
   </div>
   <div class="md-form-group float-label">
       {!! Form::password('password',['class'=>'md-input','ng-model'=>'user.password']) !!}
@@ -32,6 +32,6 @@
 
 <div class="p-v-lg text-center">
     <div class="m-b"><button onclick="location.href='/password/email';" ui-sref="access.forgot-password" class="md-btn">{{Lang::get('auth.forgot')}}</button></div>
-    <div>Don't have an account? <button onclick="location.href='/auth/register';" ui-sref="access.signin" class="md-btn">{{Lang::get('auth.register')}}</button></div>
+    <div>Don't have an account? <button onclick="location.href='register';" ui-sref="access.signin" class="md-btn">{{Lang::get('auth.register')}}</button></div>
 </div>
 @endsection

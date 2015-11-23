@@ -11,7 +11,7 @@
       </div>
 
       <div class="modal-footer">
-        <button onclick="location.href='/auth/logout'" md-ink-ripple type="button" class="md-btn md-raised pink p-h-md">Sign out</button>
+        <button onclick="location.href='logout'" md-ink-ripple type="button" class="md-btn md-raised pink p-h-md">Sign out</button>
       </div>
     </div>
 </div>

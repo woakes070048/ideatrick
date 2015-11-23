@@ -24,13 +24,9 @@
 <meta name="twitter:description" content="The biggest event portal in the world, find everything you need to kick up and trick your idea.">
 <meta name="twitter:image" content=''>
 
-<script src="{{ asset('assets/bower_components/backtotop/js/modernizr.js') }}"></script>
+
 <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikit.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/bower_components/customselect/css/cs-select.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/bower_components/customselect/css/cs-skin-overlay.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/bower_components/customselect/css/cs-skin-rotate.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/bower_components/customselect/css/normalize.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/font-awesome/css/font-awesome.css') }}" type="text/css">
@@ -58,9 +54,6 @@
 <script src="{{ asset('assets/bower_components/Waves/dist/waves.js') }}"></script>
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
 <script src="{{ asset('assets/bower_components/slick-carousel/slick/slick.js') }}"></script>
-
-<script src="{{ asset('assets/bower_components/customselect/js/classie.js') }}"></script>
-<script src="{{ asset('assets/bower_components/customselect/js/selectFx.js') }}"></script>
 
 <script src="{{ asset('assets/general/js/function.js') }}"></script>
 <script src="{{ asset('assets/general/js/ui-load.js') }}"></script>

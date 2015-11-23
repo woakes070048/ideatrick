@@ -9,7 +9,7 @@
   </div>
   @include('errors._register')
 
-  {!! Form::open(['name'=>'form','url'=>'/auth/register']) !!}
+  {!! Form::open(['name'=>'form','url'=>'/register']) !!}
   <div class="md-form-group float-label">
       {!! Form::text('username',null,['class'=>'md-input','ng-model'=>'user.name']) !!}
       {!! Form::label('username', 'Username') !!}
