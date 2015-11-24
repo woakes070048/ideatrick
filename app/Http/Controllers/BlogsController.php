@@ -21,8 +21,6 @@ class BlogsController extends Controller
     public function details($id){
 
         $blogpost = Blogpost::findOrFail($id);
-
         return view('blogs.detail', compact('blogpost'));
-
     }
 }

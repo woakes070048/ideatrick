@@ -12,5 +12,18 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('app.less');
+    // mix.less('app.less');
+    mix.scripts([
+    	'vendor/app.min.js',
+    	'vendor/app.src.js',
+    	'vendor/ui-client.js',
+    	'vendor/ui-form.js',
+    	'vendor/ui-jp.config.js',
+    	'vendor/ui-jp.js',
+    	'vendor/ui-load.js',
+    	'vendor/ui-nav.js',
+    	'vendor/ui-toggle.js',
+    	'vendor/ui-waves.js',
+    	'vendor/vue.min.js'
+    	], 'public/assets/general/js/vendor.js');
 });

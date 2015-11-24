@@ -43,14 +43,7 @@
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
 
 <script src="{{ asset('assets/general/js/function.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-load.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-jp.config.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-jp.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-nav.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-toggle.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-form.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-waves.js') }}"></script>
-<script src="{{ asset('assets/general/js/ui-client.js') }}"></script>
+<script src="{{ asset('assets/general/js/vendor.js') }}"></script>
 
 </body>
 </html>
