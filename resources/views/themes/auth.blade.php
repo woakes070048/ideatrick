@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   
-  <link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/css/font.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikits.css') }}" type="text/css">
 
-  <link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/css/material-design-icons.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
-  <link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" type="text/css">
 
 </head>
 <body>
@@ -42,8 +42,8 @@
 <script src="{{ asset('assets/bower_components/Waves/dist/waves.js') }}"></script>
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
 
-<script src="{{ asset('assets/general/js/function.js') }}"></script>
-<script src="{{ asset('assets/general/js/vendor.js') }}"></script>
+<script src="{{ asset('assets/js/function.js') }}"></script>
+<script src="{{ asset('assets/js/vendor.js') }}"></script>
 
 </body>
 </html>

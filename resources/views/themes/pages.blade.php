@@ -25,17 +25,17 @@
 <meta name="twitter:image" content=''>
 
 
-<link rel="stylesheet" href="{{ asset('assets/general/css/font.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/css/font.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/uikit/css/uikit.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/animate.css/animate.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/Waves/dist/waves.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/font-awesome/css/font-awesome.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('assets/general/css/material-design-icons.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/css/material-design-icons.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/bootstrap/dist/css/bootstrap.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/slick-carousel/slick/slick.css') }}" type="text/css">
 <link rel="stylesheet" href="{{ asset('assets/bower_components/slick-carousel/slick/slick-theme.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('assets/general/css/app.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ asset('assets/general/css/home.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('assets/css/home.css') }}" type="text/css">
 
 <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
 
@@ -55,8 +55,8 @@
 <script src="{{ asset('assets/bower_components/uikit/js/uikit.js') }}"></script>
 <script src="{{ asset('assets/bower_components/slick-carousel/slick/slick.js') }}"></script>
 
-<script src="{{ asset('assets/general/js/function.js') }}"></script>
-<script src="{{ asset('assets/general/js/vendor.js') }}"></script>
+<script src="{{ asset('assets/js/function.js') }}"></script>
+<script src="{{ asset('assets/js/vendor.js') }}"></script>
 
 </body>
 </html>

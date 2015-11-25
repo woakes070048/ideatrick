@@ -2,5 +2,5 @@
 
 @section('content')
 @include('home._topbar')
-@include('pages._popular-search')
+@include('pages._event-sort')
 @stop

@@ -47,7 +47,7 @@
 
 	<div class="btn-groups row" style="margin-bottom: 10px">
 		<div class="align-center">
-		<button class="btn btn-fw btn-stroke pink b-2x" onclick="location.href='/popular';">All Popular Stage</button>
+		<button class="btn btn-fw btn-stroke pink b-2x" onclick="location.href='/event';">All Popular Stage</button>
 		</div>
 	</div>
 

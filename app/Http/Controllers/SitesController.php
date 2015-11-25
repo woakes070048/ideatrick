@@ -14,6 +14,6 @@ class SitesController extends Controller
     }
 
     public function event(){
-    	return view('pages.popular',['title' => 'Popular | IdeaTrick']);
+    	return view('pages.event',['title' => 'Event | IdeaTrick']);
     }
 }

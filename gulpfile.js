@@ -14,16 +14,25 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     // mix.less('app.less');
     mix.scripts([
-    	'vendor/app.min.js',
-    	'vendor/app.src.js',
-    	'vendor/ui-client.js',
-    	'vendor/ui-form.js',
-    	'vendor/ui-jp.config.js',
-    	'vendor/ui-jp.js',
-    	'vendor/ui-load.js',
-    	'vendor/ui-nav.js',
-    	'vendor/ui-toggle.js',
-    	'vendor/ui-waves.js',
-    	'vendor/vue.min.js'
-    	], 'public/assets/general/js/vendor.js');
+    	'app.min.js',
+    	'app.src.js',
+    	'ui-client.js',
+    	'ui-form.js',
+    	'ui-jp.config.js',
+    	'ui-jp.js',
+    	'ui-load.js',
+    	'ui-nav.js',
+    	'ui-toggle.js',
+    	'ui-waves.js',
+    	'vue.min.js',
+        'natural-lang.js'
+    	],'public/assets/js/vendor.js');
+
+    mix.styles([
+        'admin.css',
+        'app.css',
+        'font.css',
+        'home.css',
+        'material-design-icons.css'
+    ], 'public/assets/css/vendor.css');
 });
